@@ -1,0 +1,290 @@
+/* ============================= */
+/* MAIN APP */
+/* ============================= */
+
+.stApp {
+    background-color: #060b18;
+    color: white;
+}
+
+/* ============================= */
+/* SIDEBAR */
+/* ============================= */
+
+section[data-testid="stSidebar"] {
+
+    background-color: #131a2b;
+
+    border-right: 1px solid rgba(255,255,255,0.05);
+
+    width: 260px !important;
+}
+
+/* ============================= */
+/* SIDEBAR TITLE */
+/* ============================= */
+
+.sidebar-title {
+
+    font-size: 28px;
+
+    font-weight: 800;
+
+    color: white;
+
+    margin-bottom: 20px;
+
+    margin-top: -10px;
+
+    padding-top: 0px;
+
+    letter-spacing: 1px;
+}
+
+/* ============================= */
+/* NAVIGATION */
+/* ============================= */
+
+.stSelectbox label {
+
+    color: #9aa4bf !important;
+
+    font-weight: 600;
+
+    font-size: 15px;
+}
+
+/* ============================= */
+/* SELECT BOX */
+/* ============================= */
+
+.stSelectbox div[data-baseweb="select"] {
+
+    background-color: #1d2640;
+
+    border-radius: 14px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* ============================= */
+/* METRIC CARDS */
+/* ============================= */
+
+div[data-testid="metric-container"] {
+
+    background: #131a2b;
+
+    border-radius: 18px;
+
+    padding: 18px;
+
+    border: 1px solid rgba(255,255,255,0.06);
+
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.35);
+}
+
+/* ============================= */
+/* BUTTONS */
+/* ============================= */
+
+.stButton button {
+
+    background: #1b2540;
+
+    color: white;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    padding: 10px 18px;
+
+    font-weight: 600;
+}
+
+.stButton button:hover {
+
+    background: #243153;
+
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+/* ============================= */
+/* TOPBAR */
+/* ============================= */
+
+.topbar {
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    align-items: center;
+
+    gap: 18px;
+
+    margin-bottom: 20px;
+}
+
+/* ============================= */
+/* ICON BUTTON */
+/* ============================= */
+
+.icon-button {
+
+    background: #131a2b;
+
+    padding: 10px 14px;
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+/* ============================= */
+/* HEADERS */
+/* ============================= */
+
+h1, h2, h3 {
+
+    color: white !important;
+}
+
+/* ============================= */
+/* DATAFRAMES */
+/* ============================= */
+
+[data-testid="stDataFrame"] {
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* ============================= */
+/* SIDEBAR NAVIGATION BUTTONS */
+/* ============================= */
+
+section[data-testid="stSidebar"] .stButton button {
+
+    width: 100%;
+
+    background: transparent;
+
+    border: none;
+
+    border-radius: 0px;
+
+    padding: 10px 8px;
+
+    margin-bottom: 0px;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    text-align: left;
+
+    transition: 0.2s ease;
+
+    min-height: 38px;
+
+    box-shadow: none;
+}
+/* HOVER EFFECT */
+
+section[data-testid="stSidebar"] .stButton button:hover {
+
+    background: rgba(255,255,255,0.06);
+
+    transform: translateX(2px);
+
+    border-radius: 8px;
+}
+
+/* ================================= */
+/* SIDEBAR TOP ALIGNMENT */
+/* ================================= */
+
+section[data-testid="stSidebar"] {
+
+    padding-top: 10px;
+}
+
+/* REMOVE EXTRA GAP */
+
+.css-1d391kg {
+
+    padding-top: 1rem;
+}
+
+/* MOVE COLLAPSE BUTTON */
+
+button[kind="header"] {
+
+    margin-left: 10px;
+}
+
+/* ================================= */
+/* FIX TOP SIDEBAR SPACING */
+/* ================================= */
+
+section[data-testid="stSidebar"] > div:first-child {
+
+    padding-top: 0rem;
+}
+
+/* REMOVE EMPTY HEADER GAP */
+
+[data-testid="stSidebarHeader"] {
+
+    height: 40px;
+
+    margin-bottom: 0px;
+
+    padding-bottom: 0px;
+}
+
+/* MOVE LOGO TO TOP */
+
+.sidebar-title {
+
+    margin-top: -25px !important;
+
+    padding-top: 0px !important;
+}
+
+/* ================================= */
+/* TOPBAR BUTTONS */
+/* ================================= */
+
+div[data-testid="column"] .stButton button {
+
+    min-height: 42px;
+
+    width: 52px;
+
+    border-radius: 12px;
+
+    font-size: 20px;
+
+    padding: 0px;
+
+    margin-top: 5px;
+}
+
+/* TOGGLE ALIGNMENT */
+
+[data-testid="stToggle"] {
+
+    margin-top: 10px;
+}
